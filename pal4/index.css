@@ -1,0 +1,45 @@
+#wrap {
+  width: 1002px;
+  margin: 0 auto;
+}
+.head {
+  width: 100%;
+  height: 544px;
+  background: url("./images/head-bg.jpg");
+}
+
+.nav {
+  top: 50px;
+  width: 957px;
+  height: 55px;
+  padding: 0 0 0 23px
+}
+
+.nav a {
+  float: left;
+  width: 112px;
+  height: 55px;
+  text-indent: -999em;
+  display: inline;
+}
+
+.pa {
+  position: absolute;
+}
+
+.nav a:hover {
+  background: url("./images/nav-bg.jpg");
+}
+
+.n4 {
+  margin-left: 285px;
+}
+
+.nav a.n1:hover {background-position:0 0}
+.nav a.n2:hover {background-position:-112px 0}
+.nav a.n3:hover {background-position:-224px 0}
+.nav a.n4:hover {
+  background-position:-621px 0;
+}
+.nav a.n5:hover {background-position:-733px 0}
+.nav a.n6:hover {background-position:-845px 0}
